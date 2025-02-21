@@ -1,0 +1,314 @@
+/* 배경을 3분의 1 노란색으로 */
+body {
+  font-family: 'Noto Sans KR', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  
+  color: #333;
+}
+
+
+.cont{
+  background-color: #ffe100;
+  height: 400px;
+
+}
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 61.5px 0px;
+  background-color: #ffe100;
+  
+}
+
+
+.tab-contentmt-3 {
+  border-radius: 25px;
+  border: none;
+  padding: 500px 100px;
+  gap: 550;
+  font-size: 16px;
+  margin-bottom: 20px;
+  transition: border 0.3s, box-shadow 0.3s;
+  border: #ffffff;
+  
+}
+
+#faqAccordion1.accordion {
+  width: 1000px;
+  margin: 0 auto;
+  
+}
+
+#faqAccordion2.accordion {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#faqAccordion3.accordion {
+  width: 1000px;
+  margin: 0 auto;
+  
+}
+
+
+input.form-control {
+  border-radius: 25px;
+  border: none;
+  padding: 60px 50px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  transition: border 0.3s, box-shadow 0.3s;
+  width: 200px;
+}
+
+input.form-control:focus {
+  border: 2px solid #ffe100;
+  box-shadow: 0 0 8px rgba(255, 205, 0, 0.6);
+}
+
+li.nav-item .nav-link {
+  color: black;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0;
+    /* margin: 0 auto
+    ; */
+}
+
+
+/* 네비게이션 스타일 */
+
+.navbar {
+  background-color: #ffe100;/* 카카오뱅크 주황색 */
+  padding: 15px 0;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #9d9d9d !important;
+  font-size: 24px;
+}
+
+.navbar-nav .nav-link {
+  color: #838181;
+  font-size: 16px;
+  font-weight: 500;
+
+}
+
+
+
+/* .navbar-nav .nav-link:hover {
+  color: #969696;
+} */
+
+
+
+.nav-tabs .nav-link:focus,  
+
+.nav-tabs .nav-link.active {
+  outline: 0.5px solid #000; /* 검은색 실선 */
+  
+}
+
+
+.navbar-nav .nav-link.active {
+  color: #969696;
+  font-weight: bold;
+}
+
+/* 탭 스타일 */
+.nav-pills .nav-link {
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s;
+}
+
+.nav-pills .nav-link.active {
+  border-color: #ffffff;
+  color: #ffffff;
+} */
+
+.nav-pills .nav-link:hover {
+  border-color: #ffffff;
+}
+
+
+
+.accordion-button {
+  background-color: transparent !important; /* 배경색 투명 */
+  color: black !important; /* 글자 색 유지 */
+  border: none; /* 기존 테두리 유지 */
+}
+
+/* 열린 상태일 때 부모(버튼)와 자식(내용) 모두 연한 회색 적용 */
+.accordion-button:not(.collapsed),
+.accordion-collapse.show {
+  background-color: #f8f9fa !important; /* 연한 회색 */
+}
+
+/* 자식(답변) 부분의 배경색을 부모와 동일하게 설정 + 패딩 조정 */
+.accordion-body {
+  background-color: #f8f9fa !important; /* 동일한 연한 회색 */
+  padding: 30px; /* 가독성을 위해 패딩 추가 */
+  line-height: 2.1;
+  
+}
+
+
+
+.search_icon {
+  width: 20px;
+  height: 20px;
+  background: url(../img/help/search.png);
+  background-size: contain;
+  background-color: #ffffff;
+}
+
+.cont h2 {
+  font-size: 30px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'yoonT', '돋움', dotum, sans-serif;
+  margin-top: 50px ;
+  
+}
+.search_span {
+  
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'yoonT', '돋움', dotum, sans-serif;
+    margin-top: 50px ;
+  }
+
+
+
+.cont span {
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'yoonT', '돋움', dotum, sans-serif;
+  margin-top: 50px ;
+  letter-spacing: 1px;
+  margin-right: 7px;
+}
+/* 검색창 스타일 */
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 2px solid #ffffff; /* 기본 테두리를 흰색으로 설정 */
+  border-radius: 0; /* 둥근 모서리 없애기 */
+  padding: 21px 5px;
+  transition: border 0.3s, box-shadow 0.3s;
+  flex-direction: row;
+  background-color: white;
+  width: 600px;
+  margin: 0 auto;
+
+}
+
+
+li.nav-item  .nav-link {
+  color: black;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0;
+}
+
+
+.search-container:focus-within {
+  border: 2px solid #ffffff; /* 클릭할 때 흰색 테두리 유지 */
+  box-shadow: 0 0 8px rgb(254, 254, 254);
+}
+
+.search-container input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 16px;
+  padding: 2px;
+  background: transparent;
+  margin: 0;
+  border-radius: 0;
+}
+
+.search-container i {
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+
+.nav item {
+  display: flex;
+  width: 20px;
+  /* color: #ffe100; */
+}
+element.style {
+  
+  justify-content: space-evenly;
+  display: flex
+;
+}
+
+.nav.justify-content-center {
+  padding-top: 50px;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .custom-nav {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* 2개씩 정렬 */
+      gap: 8px;
+      justify-content: center;
+  }
+
+  .nav-item {
+      text-align: center;
+  }
+}
+
+
+
+
+.nav.justify-content-center .nav-link:hover {
+ border: 1px solid #000000;
+ 
+}
+
+.nav.justify-content-center .nav-link.active {
+  border: 1px solid #000000;
+  background-color: initial !important; /* 기본 배경색 유지 */
+  color: initial !important; /* 기본 글자색 유지 */
+  border: initial !important;
+}
+ 
+.title {
+  width: 100%;
+}
+.title div {
+  width: 1000px;
+
+
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+/* 네비게이션 바 - 별도 적용 부분*/
+
+#header {
+  background-color: #ffe100;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.186);
+  transition: 400ms;
+}
+#header .dropdown_btn {
+  background: #F6F3DD;
+  border: 1px solid rgba(34, 34, 34, 0.1);
+  transition: 400ms;
+}
