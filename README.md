@@ -25,9 +25,9 @@ HTML, CSS, JavaScript, jQuery, AJAX, Bootstrap을 활용하여 개발하였습�
 ### 🛠️ 실행 방법  
 1. 프로젝트 클론  
    bash
-   git clone https://github.com/dbwogns1/miniproject1.git
+   git clone https://github.com/Hoyhacesol/GIT_MiniProject1.git
 
-2. https://dbwogns1.github.io/miniproject1/](https://hoyhacesol.github.io/GIT_MiniProject1/index.html 접속
+2. https://hoyhacesol.github.io/GIT_MiniProject1/index.html 접속
 
 ### 🐝 라이센스  
 본 프로젝트는 개인 학습 및 포트폴로오 용도로 제작되었습니다.
