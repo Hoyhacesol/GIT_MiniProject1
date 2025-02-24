@@ -27,10 +27,7 @@ HTML, CSS, JavaScript, jQuery, AJAX, Bootstrap을 활용하여 개발하였습�
    bash
    git clone https://github.com/dbwogns1/miniproject1.git
 
-2. 로컬 환경에서 실행  
-   - `index.html`을 브라우저에서 실행
-
-3. https://dbwogns1.github.io/miniproject1/ 접속
+2. https://dbwogns1.github.io/miniproject1/](https://hoyhacesol.github.io/GIT_MiniProject1/index.html 접속
 
 ### 🐝 라이센스  
 본 프로젝트는 개인 학습 및 포트폴로오 용도로 제작되었습니다.
